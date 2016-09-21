@@ -1,0 +1,68 @@
+{
+  "name": "NodeJS_Server",
+  "version": "0.1.0",
+  "description": "DESCRIPTION GOES HERE",
+  "main": "./dist/index.js",
+  "author": {
+    "name": "Appcelerator, Inc.",
+    "email": "npmjs@appcelerator.com"
+  },
+  "maintainers": [
+    {
+      "name": "Chris Barber",
+      "email": "cbarber@appcelerator.com"
+    }
+  ],
+  "license": "Apache-2.0",
+  "keywords": [
+    "appcelerator"
+  ],
+  "scripts": {
+    "build": "gulp build",
+    "coverage": "gulp coverage",
+    "docs": "gulp docs",
+    "prepublish": "gulp build",
+    "run": "gulp build && node dist/index.js",
+    "test": "gulp test"
+  },
+  "dependencies": {
+    "autobind-decorator": "^1.3.3",
+    "babel-polyfill": "^6.13.0",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "log4js": "^0.6.38",
+    "mongodb": "^2.2.10",
+    "source-map-support": "^0.4.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-nodejs-lts": "^1.2.2",
+    "chai": "^3.5.0",
+    "del": "^2.2.2",
+    "esdoc-es7-plugin": "^0.0.3",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-babel-istanbul": "^1.5.0",
+    "gulp-debug": "^2.1.2",
+    "gulp-esdoc": "^0.3.0",
+    "gulp-eslint": "^3.0.1",
+    "gulp-filter": "^4.0.0",
+    "gulp-inject-modules": "^1.0.0",
+    "gulp-load-plugins": "^1.3.0",
+    "gulp-mocha": "^3.0.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sourcemaps": "^2.0.0-alpha",
+    "sinon": "^1.17.5",
+    "sinon-chai": "^2.8.0"
+  },
+  "homepage": "https://github.com/appcelerator/REPO_NAME#readme",
+  "bugs": "https://github.com/appcelerator/REPO_NAME/issues",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/appcelerator/REPO_NAME.git"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  }
+}
